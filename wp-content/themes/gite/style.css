@@ -1,0 +1,155 @@
+/*
+*
+*Theme Name: gite
+*Author: Wenndy
+*Description: Présentation d'un gite
+*
+*/
+h1, h3{
+    font-family: 'Abril Fatface', cursive;
+}
+
+p, a, label{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#menu-menu li a{
+    font-size: 2rem;
+}
+
+#menu-menu-a-propos li a, #menu-menu-nos-gites li a{
+    text-decoration: none;
+    color: white!important;
+}
+
+a:hover{
+    text-decoration: none!important;
+    color: blue!important;
+}
+
+.blue{
+    color: blue;
+}
+
+input, textarea{
+    border-radius: 20px!important;
+    border-color: blue!important;
+    background: #dbdbdb!important;
+}
+
+textarea{
+    width:100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding-right: 15px;
+}
+
+.cst-bkg-home{
+   background:url('images/bkgd.jpg');
+   width: 100%;
+   height: 350px;
+   background-size: cover;
+}
+
+.cst-position-rel{
+    position: relative;
+}
+
+.cst-position-abs{
+    background: black;
+    color: white;
+    position: absolute;
+    right: -107px;
+    z-index: 10;
+    top: 91px;
+    width: 600px;
+}
+
+.gite-1{
+    width: 100%;
+}
+
+.gite-2{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+}
+
+.col-maps{
+    padding: 0px!important;
+}
+
+.cst-pt{
+    padding-top: 60px;
+}
+
+.img-art-gite{
+    width: 100%;
+    height: 100%;
+}
+
+.separator{
+    background: black;
+    color: white;
+}
+
+.position-article{
+    position: relative;
+}
+
+.price{
+    position: absolute;
+    background: blue;
+    color: white;
+    right: -55px;;
+    bottom: 0;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px black;
+}
+
+#slide-article{
+    width:100%;
+}
+
+#slide-article2{
+    width: 100%;
+}
+
+.bckgd-footer{
+    background: black;
+    color: white;
+}
+
+.img-art{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.img-art:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px black;
+}
+
+#bienvenue{
+    font-size: 3rem;
+    position: absolute;
+    left: 203px;
+    color: blue;
+    top: 37px;
+    z-index: 100;
+}
