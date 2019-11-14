@@ -5,6 +5,9 @@
 *Description: Présentation d'un gite
 *
 */
+body{
+    background: red;
+}
 h1, h3{
     font-family: 'Abril Fatface', cursive;
 }
